@@ -1,0 +1,36 @@
+* {
+    border: 1px dashed orange;
+}
+
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 25px;
+    border: #cccccc
+}
+
+h1 {
+
+}
+
+#main-bio,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    color:#777777;
+}
+
+#bio-image {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
