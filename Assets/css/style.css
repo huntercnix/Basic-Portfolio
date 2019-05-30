@@ -2,10 +2,12 @@
     border: orange 5px solid;
 }
 */
+
 body {
     font-size: 24px;
     line-height: 32px;
-    background-color: black;
+    background-image: url("file:///C:/Users/hunte/Desktop/SMU/Basic-Portfolio/Assets/images/wheat/wheat.png") ;
+    background-color: #cccccc;
 }
 
 header {
@@ -83,12 +85,14 @@ header {
     background-color: #ffffff;
     padding: 0px;
     margin-bottom: 35px;
+    font-size: 25px;
+    line-height: 34px;
 }
 
 footer {
     padding: 20px;
     background-color: #666666;
-    border-top: #4aaaa5 15px solid;
+    border-top: 8px solid #4aaaa5;
     margin-top: 20px;
     position: absolute;
     bottom: 0;
