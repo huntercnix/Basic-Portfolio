@@ -8,6 +8,7 @@ body {
     line-height: 32px;
     background-image: url("file:///C:/Users/hunte/Desktop/SMU/Basic-Portfolio/Assets/images/wheat/wheat.png") ;
     background-color: #cccccc;
+    margin-bottom: 65px;
 }
 
 header {
@@ -94,18 +95,22 @@ header {
 
 a:link {
     color: #777777;
+    text-decoration: none;
 }
   
 a:visited {
     color: #777777;
+    text-decoration: none;
 }
   
 a:hover {
     color: #777777;
+    text-decoration: none;
 }
   
 a:active {
     color: #777777;
+    text-decoration: none;
 }
 
 #contact {
@@ -131,38 +136,53 @@ a:active {
 }
 
 .boxed {
-    border: 1px solid green ;
+    border: 1px solid #4aaaa5 ;
     width:200px;
 	height:200px;
 	margin:10px;
     padding:10px;
     border-radius: 25px;
+    color: #777777;
     background-color: #4aaaa5;
-    display: inline-block;
+    display: inline-flex;
+  }
+
+  .boxed div {
+    background-color: #f4f4f4; 
+    width: 100px; 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 50px; 
   }
 
   #box1 {
     background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #box2 {
-    background-image: url("http://lorempixel.com/400/200/sports/")
+    background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #box3 {
-    background-image: url("http://lorempixel.com/400/200/sports/")
+    background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #box4 {
-    background-image: url("http://lorempixel.com/400/200/sports/")
+    background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #box5 {
-    background-image: url("http://lorempixel.com/400/200/sports/")
+    background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #box6 {
-    background-image: url("http://lorempixel.com/400/200/sports/")
+    background-image: url("http://lorempixel.com/400/200/sports/");
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 
@@ -170,9 +190,10 @@ a:active {
     padding: 20px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
