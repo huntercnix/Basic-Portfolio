@@ -1,7 +1,7 @@
 body {
     font-size: 24px;
     line-height: 32px;
-    background-image: url("file:///C:/Users/hunte/Desktop/SMU/Basic-Portfolio/Assets/images/wheat/wheat.png") ;
+    background-image: url("..//images/wheat/wheat.png") ;
     background-color: #cccccc;
     margin-bottom: 65px;
 }
@@ -179,5 +179,5 @@ a:active {
 }
 
 .custom {
-    cursor: url(file:///C:/Users/hunte/Desktop/SMU/Basic-Portfolio/Assets/images/cursor.cur), auto;
+    cursor: url(..//images/cursor.cur), auto;
 }
